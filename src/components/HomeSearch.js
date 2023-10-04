@@ -7,6 +7,7 @@ export const HomeSearch = () => {
   const [randomSearchloading, setRandomSearchloading] = useState(false)
   const [input, setInput] = useState("")
   const router = useRouter();
+  
 
   const handelSubmit = (e) =>{
     e.preventDefault();
