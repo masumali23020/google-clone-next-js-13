@@ -16,6 +16,7 @@ const CoutryLookup = () => {
     <div  className=" flex space-x-3">
         <p> <span className=" text-slate-400"> Country:</span>{country.country}</p>
         <p> <span className=" text-slate-400">City</span>:{country.city}</p>
+        <p> <span className=" text-slate-400">Distic:</span>:{country.region}</p>
 
     </div>
   )
